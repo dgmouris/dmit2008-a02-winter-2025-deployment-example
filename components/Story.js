@@ -63,13 +63,5 @@ export default function Story({id}) {
         score: {story.score} by: {story.by}
       </Typography>
     </CardContent>
-    {/* is we could build out the comment
-    component very similarly to this one
-    by using the id of the story.kids */}
-    {/* <CardActions>
-      <Button variant="contained">
-        Load Comments
-      </Button>
-    </CardActions> */}
   </Card>
 }
